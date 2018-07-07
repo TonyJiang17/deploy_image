@@ -7,8 +7,11 @@
     <%= f.input :title %>
     <%= f.input :body %>
   </div>
+  <%= f.input :photo %>
+  <%= f.input :photo_cache, as: :hidden %>
 
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
+
 <% end %>
